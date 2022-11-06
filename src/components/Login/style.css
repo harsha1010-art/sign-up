@@ -1,0 +1,27 @@
+.container {
+  text-align: center;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 10px;
+
+  padding: 20px 10px;
+  max-width: 400px;
+  border: 1px solid;
+}
+
+input {
+  margin: 0px 10px;
+}
+
+#submit-button {
+  width: 100px;
+  margin: 10px auto;
+}
+
+.error {
+  color: red;
+  font-size: 10px;
+}
